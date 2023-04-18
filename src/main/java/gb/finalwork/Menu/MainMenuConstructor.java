@@ -1,22 +1,45 @@
 package gb.finalwork.Menu;
 
+import gb.finalwork.Data.Registry;
+import gb.finalwork.animals.Cat;
+import gb.finalwork.animals.Dog;
+
 public class MainMenuConstructor {
 
     Menu menu = new Menu();
-    public MainMenuConstructor() {
+    public MainMenuConstructor(Registry registry) {
         menu.addEntry(new MenuEntry("View Registry") {
             @Override
             public void run() {
-                System.out.println("test1 run");
+                registry.printRegistry();
             }
         });
         menu.addEntry(new MenuEntry("Add Animal to Registry") {
             @Override
             public void run() {
-                System.out.println("test2 run");
+                addAnimal(registry);
             }
         });
 
+        menu.run();
+    }
+
+    private void addAnimal (Registry registry) {
+        UserInput ui = new UserInput();
+        Menu addAnimal = new Menu();
+        addAnimal.addEntry(new MenuEntry("Cat") {
+            @Override
+            public void run() {
+                registry.addEntry(ui.inputAnimalInfo(new Cat()));
+            }
+        });
+        addAnimal.addEntry(new MenuEntry("Dog") {
+            @Override
+            public void run() {
+                registry.addEntry(ui.inputAnimalInfo(new Dog()));
+            }
+        });
+        addAnimal.run();
         menu.run();
     }
 

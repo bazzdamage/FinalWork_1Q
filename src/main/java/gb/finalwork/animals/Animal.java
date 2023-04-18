@@ -1,20 +1,24 @@
 package gb.finalwork.animals;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.HashSet;
 
 public class Animal {
 
     HashSet<String> commands;
     String name;
-    Date birthdate;
+    LocalDate birthdate;
+
+    public Animal() {
+    }
 
     public Animal(String name) {
         this.name = name;
+        this.birthdate = LocalDate.now();
         this.commands = new HashSet<>();
     }
 
-    public Animal(String name, Date birthdate) {
+    public Animal(String name, LocalDate birthdate) {
         this.name = name;
         this.birthdate = birthdate;
         this.commands = new HashSet<>();
@@ -28,22 +32,20 @@ public class Animal {
         this.name = name;
     }
 
-    public Date getBirthdate() {
+    public LocalDate getBirthdate() {
         return birthdate;
     }
 
-    public void setBirthdate(Date birthdate) {
+    public void setBirthdate(LocalDate birthdate) {
         this.birthdate = birthdate;
     }
 
-    public boolean learnCommand(String command) {
+    public void learnCommand(String command) {
         if (this.commands.contains(command)) {
             System.out.println(this.name + " already learn that command");
-            return false;
         } else {
             this.commands.add(command);
             System.out.println(this.name + " successfully learn to " + command);
-            return true;
         }
     }
 

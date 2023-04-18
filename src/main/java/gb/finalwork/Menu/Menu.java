@@ -30,9 +30,12 @@ public class Menu {
     }
 
     private void printMenu() {
+        String sep = "|||>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>|||";
+        System.out.println(sep);
         for (MenuEntry entry : entries) {
             System.out.println(entry.getTitle());
         }
+        System.out.println(sep);
     }
 
 

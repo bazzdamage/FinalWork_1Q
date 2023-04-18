@@ -24,16 +24,14 @@ public class Registry {
     }
 
     public void printRegistry() {
-        if(this.registry.size() == 0) {
+        if (this.registry.size() == 0) {
             System.out.println("Registry has not entries yet");
         } else {
             System.out.println("Registry have a total " + registry.size() + " entries:\n");
             for (Animal entry : registry) {
                 System.out.println(entry);
-                entry.printCommands();
-                System.out.println(" ----------------------- ");
             }
         }
+        System.out.println("END OF REGISTRY");
     }
-
 }

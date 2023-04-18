@@ -25,6 +25,6 @@ public class Main {
 
         registry.printRegistry();
 
-        MainMenuConstructor mmc = new MainMenuConstructor();
+        MainMenuConstructor mmc = new MainMenuConstructor(registry);
     }
 }

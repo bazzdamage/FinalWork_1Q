@@ -7,28 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236c971a-a5a2-44d3-8055-fa9f655f3b1b" name="Changes" comment="1. Classes&#10;2. Methods&#10;3. Prints">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Data/Registry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/MenuConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/MenuEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Dog.java" afterDir="false" />
+    <list default="true" id="236c971a-a5a2-44d3-8055-fa9f655f3b1b" name="Changes" comment="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Data/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Data/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/MainMenuConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/MainMenuConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,10 +120,19 @@
       <option name="presentableId" value="Default" />
       <updated>1681655487075</updated>
     </task>
+    <task id="LOCAL-00001" summary="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept">
+      <created>1681834065727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681834065727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Classes&#10;2. Methods&#10;3. Prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Classes&#10;2. Methods&#10;3. Prints" />
+    <MESSAGE value="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept" />
   </component>
 </project>
