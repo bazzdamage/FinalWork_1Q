@@ -30,10 +30,16 @@ public class Menu {
     }
 
     private void printMenu() {
+        System.out.println();
         String sep = "|||>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>|||";
         System.out.println(sep);
+        int count = 1;
         for (MenuEntry entry : entries) {
-            System.out.println(entry.getTitle());
+            if (entry.getTitle().equals("Exit")) {
+                System.out.println("...");
+            }
+            System.out.println(count + ". " + entry.getTitle());
+            count++;
         }
         System.out.println(sep);
     }

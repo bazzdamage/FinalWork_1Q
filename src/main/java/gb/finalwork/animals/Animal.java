@@ -1,5 +1,7 @@
 package gb.finalwork.animals;
 
+import gb.finalwork.backend.Counter;
+
 import java.time.LocalDate;
 import java.util.HashSet;
 
@@ -8,6 +10,7 @@ public class Animal {
     HashSet<String> commands;
     String name;
     LocalDate birthdate;
+    Integer count;
 
     public Animal() {
     }
@@ -26,6 +29,18 @@ public class Animal {
 
     public String getName() {
         return name;
+    }
+
+    public HashSet<String> getCommands() {
+        return commands;
+    }
+
+    public Integer getCount() {
+        return count;
+    }
+
+    public void setCount(Integer count) {
+        this.count = count;
     }
 
     public void setName(String name) {
@@ -65,7 +80,7 @@ public class Animal {
         if (this.birthdate == null) {
             return this.name;
         } else {
-            return this.name + "\nborn " + this.birthdate;
+            return this.name + " born " + this.birthdate;
         }
     }
 }
