@@ -42,21 +42,45 @@ public class MainMenuConstructor {
             }
         });
         addAnimal.run();
-        menu.run();
     }
 
     private void viewRegistry(Registry registry) {
-        UserInput ui = new UserInput();
         Menu viewRegistry = new Menu();
         for (Animal animal : registry.getRegistry()) {
             viewRegistry.addEntry(new MenuEntry(animal.toString()) {
                 @Override
                 public void run() {
-                    registry.printEntry(animal);
+                    editRegistryEntry(registry, animal);
                 }
             });
         }
         viewRegistry.run();
-        menu.run();
+    }
+
+    private void editRegistryEntry (Registry registry, Animal animal) {
+        UserInput ui = new UserInput();
+        Menu editRegistryEntry = new Menu();
+        registry.printEntry(animal);
+        editRegistryEntry.addEntry(new MenuEntry("Delete Entry") {
+            @Override
+            public void run() {
+                registry.deleteEntry(animal);
+                menu.run();
+            }
+        });
+        editRegistryEntry.addEntry(new MenuEntry("View Commands") {
+            @Override
+            public void run() {
+                animal.printCommands();
+            }
+        });
+        editRegistryEntry.addEntry(new MenuEntry("Add Command") {
+            @Override
+            public void run() {
+                animal.learnCommand(ui.inputCommand());
+            }
+        });
+        editRegistryEntry.run();
+
     }
 }

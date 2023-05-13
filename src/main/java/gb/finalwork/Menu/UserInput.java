@@ -2,11 +2,10 @@ package gb.finalwork.Menu;
 
 import gb.finalwork.animals.Animal;
 
-import java.text.ParseException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
-import java.util.*;
+import java.util.Scanner;
 
 public class UserInput {
 
@@ -30,15 +29,26 @@ public class UserInput {
             sc.next();
         }
         String name = sc.nextLine();
-        System.out.println("Please enter the Date of Birth in format " + dateformat + " ...for Example - " + LocalDate.now().format(f));
         LocalDate dateOfBirth = LocalDate.now();
-        while (!isDateCorrect(sc.next(), f)) {
-            System.out.println("Date must be BEFORE NOW and formatted " + dateformat + " ...for Example - " + dateOfBirth.format(f));
-            dateOfBirth = LocalDate.parse(sc.nextLine());
-        }
+        String temp;
+        do {
+            System.out.println("Please enter the Date BEFORE NOW and formatted " + dateformat + " ...for Example - " + dateOfBirth.format(f));
+            temp = sc.next();
+        } while (!isDateCorrect(temp, f));
+        dateOfBirth = LocalDate.parse(temp,f);
         animal.setName(name);
         animal.setBirthdate(dateOfBirth);
         return animal;
+    }
+
+    public String inputCommand () {
+        System.out.println("Please enter the command");
+        Scanner sc = new Scanner(System.in);
+        while (!sc.hasNext()) {
+            System.out.println("Command must be not empty");
+            sc.next();
+        }
+        return sc.nextLine();
     }
 
     private boolean isDateCorrect(String dateString, DateTimeFormatter f) {

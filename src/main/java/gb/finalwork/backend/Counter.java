@@ -7,8 +7,9 @@ public class Counter implements AutoCloseable{
         count++;
         System.out.println("Current registry entry is " + count);
     }
+
     @Override
-    public void close() throws Exception {
+    public void close() {
         count = 0;
     }
 }

@@ -7,13 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236c971a-a5a2-44d3-8055-fa9f655f3b1b" name="Changes" comment="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept&#10;5. Menu - Working Prototype">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/backend/Counter.java" afterDir="false" />
+    <list default="true" id="236c971a-a5a2-44d3-8055-fa9f655f3b1b" name="Changes" comment="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept&#10;5. Menu - Working Prototype&#10;6. View Registry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Data/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Data/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/MainMenuConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/MainMenuConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/Menu/UserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/finalwork/backend/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/finalwork/backend/Counter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +51,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gb.finalwork.Main" />
@@ -131,13 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681846016030</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept&#10;5. Menu - Working Prototype&#10;6. View Registry">
+      <created>1683567515468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683567515468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Classes&#10;2. Methods&#10;3. Prints" />
     <MESSAGE value="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept" />
     <MESSAGE value="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept&#10;5. Menu - Working Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept&#10;5. Menu - Working Prototype" />
+    <MESSAGE value="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept&#10;5. Menu - Working Prototype&#10;6. View Registry" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Classes&#10;2. Methods&#10;3. Prints&#10;4. Menu concept&#10;5. Menu - Working Prototype&#10;6. View Registry" />
   </component>
 </project>

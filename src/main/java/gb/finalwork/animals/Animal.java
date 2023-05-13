@@ -1,16 +1,13 @@
 package gb.finalwork.animals;
 
-import gb.finalwork.backend.Counter;
-
 import java.time.LocalDate;
 import java.util.HashSet;
 
 public class Animal {
 
-    HashSet<String> commands;
+    HashSet<String> commands = new HashSet<>();
     String name;
     LocalDate birthdate;
-    Integer count;
 
     public Animal() {
     }
@@ -18,37 +15,14 @@ public class Animal {
     public Animal(String name) {
         this.name = name;
         this.birthdate = LocalDate.now();
-        this.commands = new HashSet<>();
-    }
-
-    public Animal(String name, LocalDate birthdate) {
-        this.name = name;
-        this.birthdate = birthdate;
-        this.commands = new HashSet<>();
     }
 
     public String getName() {
         return name;
     }
 
-    public HashSet<String> getCommands() {
-        return commands;
-    }
-
-    public Integer getCount() {
-        return count;
-    }
-
-    public void setCount(Integer count) {
-        this.count = count;
-    }
-
     public void setName(String name) {
         this.name = name;
-    }
-
-    public LocalDate getBirthdate() {
-        return birthdate;
     }
 
     public void setBirthdate(LocalDate birthdate) {

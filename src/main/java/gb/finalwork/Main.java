@@ -2,8 +2,6 @@ package gb.finalwork;
 
 import gb.finalwork.Data.Registry;
 import gb.finalwork.Menu.MainMenuConstructor;
-import gb.finalwork.Menu.Menu;
-import gb.finalwork.Menu.MenuEntry;
 import gb.finalwork.animals.Cat;
 import gb.finalwork.animals.Dog;
 
@@ -25,6 +23,6 @@ public class Main {
 
         registry.printRegistry();
 
-        MainMenuConstructor mmc = new MainMenuConstructor(registry);
+        new MainMenuConstructor(registry);
     }
 }
